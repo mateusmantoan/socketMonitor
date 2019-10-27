@@ -8,6 +8,8 @@ PORT = 2907
 print('Frequency of monitoring (in seconds): ')
 FREQUENCY = raw_input()
 
+print('\nMonitoring host and sending msgs\n\n')
+
 while True:
     mem = commands.getoutput('cat /proc/meminfo | grep Mem')
     disc = commands.getoutput('df --total -h | grep total')
