@@ -1,16 +1,16 @@
 # socketMonitor
 
-\Carregar conteiner na máquina do server
+Carregar conteiner na máquina do server
 
-(using the docker network on the same host)
+(usando a rede do docker no próprio host)
 
-docker run -it -mateusmantoan/socketserver:1.0
+  docker run -it -mateusmantoan/socketserver:1.0
 
-(using the local network on different hosts)
+(usando a rede local em diferentes hosts)
 
-docker run -it --network host mateusmantoan/socketserver:1.0
+  docker run -it --network host mateusmantoan/socketserver:1.0
 
 
-\Baixar programa do client nas máquinas client
+Baixar programa do client nas máquinas client
 
-git clone https://github.com/mateusmantoan/socketMonitor
+  git clone https://github.com/mateusmantoan/socketMonitor
