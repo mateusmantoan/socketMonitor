@@ -4,7 +4,7 @@ Carregar conteiner na máquina do server
 
 (usando a rede do docker no próprio host)
 
-docker run -it -mateusmantoan/socketserver:1.0
+docker run -it mateusmantoan/socketserver:1.0
 
 (usando a rede local em diferentes hosts)
 docker run -it --network host mateusmantoan/socketserver:1.0
