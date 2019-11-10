@@ -12,5 +12,7 @@ docker run -it --network host mateusmantoan/socketserver:1.0
 Baixar programa do client nas máquinas client
 
 git clone https://github.com/mateusmantoan/socketMonitor
+
 cd socketMonitor
+
 python socketClient.py
